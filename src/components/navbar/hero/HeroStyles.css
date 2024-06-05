@@ -1,0 +1,38 @@
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Setează înălțimea la înălțimea completă a viewport-ului */
+    overflow: hidden;
+  }
+
+  .full-screen-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .overlay{
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0;
+  }
+ .content {
+    position: absolute;
+    top: 0;
+    height:100% ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+    color:#fff;
+
+}
